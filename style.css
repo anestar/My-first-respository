@@ -1,0 +1,31 @@
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .header1{
+    color: blue;
+}
+ul li{
+    float: left;
+    width: 200px;
+    background-color: darkgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+ul li a:hover{
+    background-color: lightsalmon;
+}
+ #paragraph1{
+    color:red;
+}
