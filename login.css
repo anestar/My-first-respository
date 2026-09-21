@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: teal;
+}
+form{
+    width: 50%;
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: whitesmoke;
+}
+input:focus{
+    background: #ddd;
+    outline: none;
+}
+.registerbtn{
+    padding: 16px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    margin: auto;
+    background-color: teal;
+}
